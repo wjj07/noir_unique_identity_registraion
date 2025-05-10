@@ -1,7 +1,7 @@
 [package]
 name = "noir_unique_identity_registration"
 type = "bin"
-authors = ["DAppDevMaster"] 
+authors = ["UniqueID_Masters"] 
 compiler_version = ">=0.20.0" # Adjust if necessary, e.g., "0.27.0"
 
 [dependencies]

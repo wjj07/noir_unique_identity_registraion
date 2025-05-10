@@ -1,0 +1,9 @@
+[package]
+name = "noir_unique_identity_registration"
+type = "bin"
+authors = ["DAppDevMaster"] 
+compiler_version = ">=0.20.0" # Adjust if necessary, e.g., "0.27.0"
+
+[dependencies]
+# For Pedersen hash
+noir_stdlib = { tag = "v0.6.0", git = "https://github.com/noir-lang/noir-libs/" , directory="stdlib"}

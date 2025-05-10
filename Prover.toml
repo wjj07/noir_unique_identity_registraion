@@ -1,0 +1,19 @@
+# Prover.toml for ZK Unique Identity Registration Proof
+
+# === Private Inputs ===
+identity_secret = "MySecretDAppDevKey123"
+identity_blinding_factor = "blindForIdentityCommit"
+
+# === Public Inputs ===
+public_identifier = "dapp_user_001" # User's chosen public name
+registration_epoch = "20240721"     # Current registration period/block
+
+# !!! CRITICAL: The hash values below are PLACEHOLDERS.
+# You MUST recompute these using the actual private inputs (identity_secret, identity_blinding_factor, registration_epoch)
+# and the pedersen_hash logic from src/main.nr.
+
+# claimed_identity_commitment = pedersen_hash(["MySecretDAppDevKey123", "blindForIdentityCommit"])
+claimed_identity_commitment = "101010..." # PLACEHOLDER - RECOMPUTE
+
+# claimed_nullifier = pedersen_hash(["MySecretDAppDevKey123", "20240721"])
+claimed_nullifier = "202020..." # PLACEHOLDER - RECOMPUTE

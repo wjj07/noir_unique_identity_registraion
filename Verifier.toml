@@ -1,0 +1,12 @@
+# Verifier.toml for ZK Unique Identity Registration Proof
+
+# === Public Inputs ===
+# These MUST match the public inputs in Prover.toml (after recomputation of hashes).
+
+public_identifier = "dapp_user_001"
+registration_epoch = "20240721"
+
+# !!! CRITICAL: These hash values are PLACEHOLDERS.
+# They must match the recomputed values from Prover.toml.
+claimed_identity_commitment = "101010..." # PLACEHOLDER - MUST MATCH PROVER'S RECOMPUTED VALUE
+claimed_nullifier = "202020..."           # PLACEHOLDER - MUST MATCH PROVER'S RECOMPUTED VALUE

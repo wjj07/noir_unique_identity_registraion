@@ -1,0 +1,5 @@
+# .gitignore
+# Ignore Nargo build artifacts and generated proofs
+
+target/
+proofs/
